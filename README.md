@@ -27,7 +27,7 @@ See the [HACKING](HACKING.md) document.
 
 ## Tasks and futures
 
-The tasking fork-join interface is designed to mirror Cilk and other fork-join frameworks. With libfork the canonical recursive-Fibonacci is a simple as:
+The tasking fork-join interface is designed to mirror Cilk and other fork-join frameworks. With libfork the canonical recursive-Fibonacci is as simple as:
 
 ```c++
 #include "libfork/task.hpp"
